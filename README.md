@@ -1,1 +1,7 @@
 # State
+
+APRESENTAÇÃO DO TRABALHO DO DESIGN PATTERN STATE
+
+INTEGRANTES
+João Alysson Sombra de Paiva
+Leonardo Monteiro Moreira
