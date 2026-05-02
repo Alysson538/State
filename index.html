@@ -22,11 +22,20 @@
 
       <!-- Slide 2 -->
       <section>
+        <h2>Integrantes</h2>
+        <ul>
+          <li>João Alysson Sombra de Paiva - 202402860917</li>
+          <li>Leonardo Monteiro Moreira - 202402658328</li>
+        </ul>
+      </section>
+
+      <!-- Slide 3 -->
+      <section>
         <h2>O Problema</h2>
         <p>Como representar diferentes comportamentos de um objeto dependendo do seu estado?</p>
       </section>
 
-      <!-- Slide 3 -->
+      <!-- Slide 4 -->
       <section>
         <h2>Exemplo</h2>
         <p>Cada pedido de compra pode assumir múltiplos estados:</p>
@@ -39,7 +48,7 @@
         </ul>
       </section>
 
-      <!-- Slide 4 -->
+      <!-- Slide 5 -->
       <section>
         <h2>Código Sem o Pattern</h2>
         <pre><code>
@@ -59,7 +68,7 @@ class Pedido {
         </code></pre>
       </section>
 
-      <!-- Slide 5 -->
+      <!-- Slide 6 -->
       <section>
         <h2>O Problema Resumido</h2>
         <ul>
@@ -69,7 +78,7 @@ class Pedido {
         </ul>
       </section>
 
-      <!-- Slide 6 -->
+      <!-- Slide 7 -->
       <section>
         <h2>Intenção do State Pattern</h2>
         <p>O State permite que um objeto altere seu comportamento quando seu estado interno muda, parecendo mudar sua própria classe.</p>
@@ -80,7 +89,7 @@ class Pedido {
         </ul>
       </section>
 
-      <!-- Slide 7 -->
+      <!-- Slide 8 -->
       <section>
   <h2>Como Funciona (Estrutura)</h2>
 
@@ -92,7 +101,7 @@ class Pedido {
   </ul>
 </section>
 
-      <!-- Slide 8 -->
+      <!-- Slide 9 -->
     <section>
   <h2>Diagrama - State Pattern</h2>
 
@@ -128,7 +137,7 @@ class Pedido {
     </div>
 </section>
 
-      <!-- Slide 9 -->
+      <!-- Slide 10 -->
       <section>
         <h2>Exemplo Prático em Java</h2>
         <pre><code>
@@ -150,7 +159,7 @@ class Pago implements EstadoPedido {
         </code></pre>
       </section>
 
-      <!-- Slide 10 -->
+      <!-- Slide 11 -->
       <section>
         <pre><code>
 class Pedido {
@@ -172,7 +181,7 @@ pedido.proximoEstado(); // Pago -> Enviado
         </code></pre>
       </section>
 
-      <!-- Slide 11 -->
+      <!-- Slide 12 -->
       <section>
         <h2>Aplicações no Mundo Real</h2>
         <ul>
@@ -182,7 +191,7 @@ pedido.proximoEstado(); // Pago -> Enviado
         </ul>
       </section>
 
-      <!-- Slide 12 -->
+      <!-- Slide 13 -->
       <section>
         <h2>State vs Strategy</h2>
         <ul>
@@ -191,7 +200,7 @@ pedido.proximoEstado(); // Pago -> Enviado
         </ul>
       </section>
 
-      <!-- Slide 13 -->
+      <!-- Slide 14 -->
       <section>
         <h2>Vantagens e Desvantagens</h2>
         <ul>
@@ -200,7 +209,7 @@ pedido.proximoEstado(); // Pago -> Enviado
         </ul>
       </section>
 
-      <!-- Slide 14 -->
+      <!-- Slide 15 -->
       <section>
         <h2>Conclusão</h2>
         <p>Use o State Pattern quando:</p>
